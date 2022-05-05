@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo George lucas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Formulário para cadastro de currículo.</h1>
+    <p>Preencha os campos abaixo.</p>
+  </header> 
+    <main> 
+      <form action="" id="input-forms" method="GET">
+        <fieldset class="line-content">
+
+           <label for="input-nome">Nome:</label>
+           <input type="text" name="nome"  id="input-nome" placeholder="Digite seu nome" maxlength="40" required   ><br><br>
+
+           <label for="input-email">E-mail:</label>
+           <input type="email" name="email" id="input-email" placeholder ="Digite seu E-mail" maxlength="50" required autocomplete="off"> <br> <br>
+
+           <label for="input-cpf"required="">CPF:</label>
+           <input type="text" name="CPF" id="input-cpf" placeholder="Digite seu CPF" maxlength="11"> <br> <br>
+
+           <label for="input-endereço"required="">Endereço:</label>
+           <input type="text" name="endereço" id="input-endereço" placeholder="Digite seu Endereço" maxlength="200"> <br> 
+           <br>
+           <label for="input-cidade" required></label>Cidade:
+           <input type="text" name="cidade" id="input-cidade" placeholder="Digite o nome da Cidade" maxlength="28"> <br> <br>
+          
+          <label for="input-estados" required></label>Estados:
+          <select name="estados" id="input-estados">
+            <option value="" disabled selected >Escolha seu estado</option>
+          </select> <br> <br>
+          
+          <label for="input-complemeto" required></label>Complemento:
+          <input type="radio" name="complemento" id="input-complemeto">Casa
+
+          <label for="input-complemento2" required></label>
+          <input type="radio" name="complemento" id="input-complemeto2">Apartamento       
+        </fieldset>
+        <fieldset>
+          
+        </fieldset>
+      </form>
+    </main> 
+    <script src="script.js"></script>   
+</body>
+
+</html>
